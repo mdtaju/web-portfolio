@@ -37,3 +37,9 @@ section{
     color: white;
     background-image: linear-gradient( orange,#c58000);
 }
+.half_width2{
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    padding-left: 2%;
+}
