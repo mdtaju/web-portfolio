@@ -20,7 +20,7 @@ h1 {
     margin-left: 5%;
     padding: 2%;
 }
-.half_width img{
+.half_width img, .half_width2 img, .half_width3 img, .half_width4 img {
     width: 100%;
     padding-top: 5%;
 
@@ -53,14 +53,14 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-.half_width2 a{
+a{
     text-decoration: none;
     padding: 10px 20px;
     color: white;
     background-image: linear-gradient(orange,#c58000);
 }
 .bg_img2{
-    margin-top: 50px;
+    margin-top: 150px;
 }
 .experiance h3{
     font-size: 16px;
@@ -93,4 +93,39 @@ footer{
 footer p{
     text-align: center;
     color: white;
+}
+.half_width3{
+    width: 40%;
+    float: left;
+    margin-right: 6%;
+    padding-left: 2%;
+
+}
+.half_width3 p{
+    text-align: justify;
+    color: dimgray;
+}
+.bg_img2{
+    margin-top: 200px;
+}
+.bg_img3{
+    margin-top: 150px;
+}
+.bg_img4{
+    margin-top: 200px;
+}
+.half_width4{
+    width: 40%;
+    float: right;
+    margin-right: 6%;
+    padding-left: 2%;
+}
+.half_width4 p{
+    text-align: justify;
+    color: dimgray;
+}
+.bg_img4{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
